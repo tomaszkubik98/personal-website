@@ -1,0 +1,347 @@
+body {
+    margin:0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:#565c61;
+    background-color:white;
+}
+h1 {
+    margin-top:50px;
+    font-family: 'Orbitron', sans-serif;
+    color: #000000;
+    font-size: 400%;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: gray;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+hr {
+    border-style: dotted;
+    border-width: 10px;
+    width: 10%;
+    border-color: #FAF562;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+p {
+    margin-top:0;
+}
+li {
+  text-align: center;
+}
+ul {
+  padding-bottom: 40px;
+}
+a.button {
+    text-decoration: none;
+    color: black;
+}
+
+div.course:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.contact:nth-child(6) {
+    background: white;
+}
+
+div.contact:nth-child(7) {
+    background: white;
+}
+div.course:nth-child(1) {
+    margin-right: 3%;
+}
+div.course:nth-child(2) {
+    margin-right: 3%;
+}
+div.course {
+    background: white;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-color: gray;
+    border-radius: 10%;
+    width: 30%;
+}
+div.course > img {
+    float: right;
+}
+div.course > img {
+    width: 30%;
+    height: 30%;
+    padding-right: 5%;
+}
+div.course > h4 {
+    padding-top: 10%;
+}
+div.course > h5 {
+    padding-top: 10%;
+}
+div.course > img {
+    width: 40%;
+    float: right;
+    height: 40%;
+    padding-top: 15%;
+    padding-right: 15%;
+}
+.exp-container {
+    background:#2081C3;
+    align-content: center;
+    padding-inline-start: 25%;
+}
+div.course > h4 {
+    padding-top: 10%;
+}
+div.course > h5 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+div.course {
+    width: 25%;
+}
+div.show:nth-child(1) {
+    margin-bottom: 20px;
+}
+div.show:nth-child(2) {
+    margin-bottom: 20px;
+}
+div.show:nth-child(1) {
+    margin-bottom: 20px;
+}
+div.show:nth-child(2) {
+    margin-bottom: 20px;
+}
+div.contact:nth-child(5) {
+    margin-bottom: 10px;
+}
+div.contact:nth-child(6) {
+    margin-bottom: 50px;
+}
+div.contact:nth-child(7) {
+    margin-bottom: 100px;
+}
+div.contact:nth-child(5) > h2:nth-child(1) {
+    padding-bottom: 100px;
+}
+div.show:nth-child(3) {
+    margin-bottom: 20px;
+}  
+div.show:nth-child(3) {
+    margin-bottom: 20px;
+}  
+div.show:nth-child(3) {
+    margin-bottom: 20px;
+}
+.head-container {
+    position:fixed;
+    padding-top:20px;
+    padding-bot:10px;
+    padding-right: 40%;
+    top: 0px;
+    padding-bottom: 10px;
+    right: 0px;
+    left: 0px;
+    height:fit-content;
+    backdrop-filter:blur(5px)
+}
+.exp-container > h2 {
+    color:white;
+}
+.exp-container {
+    background:#2081C3;
+}
+.contact {
+    background:linear-gradient(#2081C3,white);
+}
+.contact-details {
+    display: inline-flex;
+}
+.button {
+    position: relative;
+    left: 35%;
+    padding: 3px 40px;
+    text-align: center;
+    text-decoration:none;
+    color: #FFFFFF;
+    width: 155px;
+    display: inline-block;
+
+    box-shadow: inset 0 0 0 0 #2081C3;
+    transition:ease-out 0.3s;
+    outline:none;
+}
+.button:hover {
+    box-shadow: inset 155px 0 0 0 #FFFFFF;
+    cursor: pointer;
+    color: #2081C3;
+}
+
+.top-container {
+    background-color: #FFFFFF;
+    position: relative;
+    padding-top: 15px;
+}
+.satellite {
+    position: absolute;
+    width: 130;
+    top: 100px;
+    right: 600px;
+}
+.earth {
+    position: absolute;
+    bottom: 300px;
+    left: 550px;
+}
+.container-exp {
+  height: 100vh;
+  background-color: #2081C3;
+  padding-top: 50px;
+  padding-left: 25%;
+  padding-right: 25%
+}
+.middle-container {
+  background-color: #2081C3;
+  padding-top: 20px;
+}
+.container-about-me {
+    height: 100vh;
+    background-color: #2081C3;
+    padding-top: 20px;
+}
+
+.bottom-container {
+    background-color: #2081C3;
+    height: 60px;
+}
+.top-container {
+    width:50%;
+    margin: 100px auto;
+    text-align:left;
+    line-height: 2rem;
+}
+.parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+.child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+.rocket {
+    float:left;
+    width: 50%;
+    padding-right:50px;
+    width:100px;
+    height:100px;
+}
+.profile-picture {
+    float:right;
+    width: 50%;
+    padding-left:50px;
+    border-radius:40%
+}
+.course.hidden {
+    opacity:0;
+    transition: all 3s;
+}
+.course.show {
+    opacity:1;
+}
+.education-container {
+    display:grid;
+    place-items:center;
+    align-content:center;
+    background:linear-gradient(#FFFFFF,#2081C3);
+}
+.courses {
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 15%;
+    padding-bottom: 80px;
+    display:flex;
+    padding-left: 20%;
+}
+.course:nth-child(1) {
+    transition-delay: 300ms;
+}
+.course:nth-child(2) {
+    transition-delay: 500ms;
+}
+.course:nth-child(3) {
+    transition-delay: 700ms;
+}
+
+#describtion-container {
+    background-color:#FFFFFF;
+    margin-top: 50px;
+    padding-top: 70px;
+}
+#describtion-text {
+    text-align: left;
+    width: 50%;
+    margin-right:25%;
+}
+#head-description {
+    color: #FAF562;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+#contact {
+    color: white;
+    margin-bottom: 70px;
+   }
+  
+#middle-to-bot {
+    width: 100%;
+    height: 500px;
+    margin:0;
+    border: none;
+    background: linear-gradient(#FFFFFF,#2081C3);
+}
+#describtion-picture > div:nth-child(1) {
+    float: left;
+    width: 20%;
+    margin-right: 0px;
+    margin-left: 20%;
+    padding-top: 200px;
+}
+#describtion-picture > div:nth-child(1) > p:nth-child(1) {
+    float: left;
+}
+@media screen and (max-width: 800px) {
+    div.about-me {
+      font-size: 100px;
+    }
+    .courses {
+        display: contents;
+    }
+    .exp-container {
+        border-bottom-style: solid;
+        border-bottom-width: 0px;
+        padding-bottom: 10px;
+    }
+    .education-container > div:nth-child(2) {
+        padding-left: 0px;
+        align-content: center;
+    }
+    div.course:nth-child(2) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
